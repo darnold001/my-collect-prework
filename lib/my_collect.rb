@@ -1,12 +1,10 @@
 
-array= ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 def my_collect (array)
   i = 0
   result = []
-
   while i < array.length
-  array <<  yield (array[i])
+  result <<  yield (array[i])
     i = i+1
   end
   result
