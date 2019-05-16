@@ -10,6 +10,8 @@ def my_collect (array)
   end
   cond
 end
+
 my_collect(array) do i
   i.split(" ").first
+end
 end
