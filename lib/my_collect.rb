@@ -8,7 +8,7 @@ def my_collect (array)
     yield (array[i])
     i = i+1
   end
-  cond
+  array
 end
 
 my_collect(array) do |i|
