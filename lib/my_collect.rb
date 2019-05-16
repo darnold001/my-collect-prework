@@ -15,6 +15,6 @@ my_collect(array) do |i|
   i.split(" ").first
 end
 
-#my_collect(languages) do |language|
-#  language.upcase
-#end
+my_collect(array) do |i|
+  i.upcase
+end
