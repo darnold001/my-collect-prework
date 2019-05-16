@@ -16,7 +16,7 @@ my_collect(array) do |i|
   puts i
 end
 
-my_collect do |i|
+my_collect(array) do |i|
   i.lowcase
   puts i
 end
