@@ -1,5 +1,5 @@
 
-#array= ["Tim Jones", "Tom Smith", "Jim Campagno"]
+array= ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 def my_collect (array)
   i = 0
@@ -13,10 +13,4 @@ end
 
 my_collect(array) do |i|
   i.split(" ").first
-  puts i
-end
-
-my_collect(array) do |i|
-  i.lowcase
-  puts i
 end
